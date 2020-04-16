@@ -14,12 +14,3 @@ a {
 ul li a:hover {
   border-bottom: 3px solid white;
 }
-
-.banner {
-  position: relative;
-}
-
-.banner div:first-child {
-  position: absolute;
-  overflow: hidden;
-}
