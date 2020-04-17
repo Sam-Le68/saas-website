@@ -14,3 +14,7 @@ a {
 ul li a:hover {
   border-bottom: 3px solid white;
 }
+
+body {
+  background-color: yellow;
+}
