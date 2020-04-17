@@ -15,7 +15,7 @@ a {
   color: white;
 }
 
-ul li a:hover {
+nav li a:hover {
   border-bottom: 3px solid white;
 }
 
