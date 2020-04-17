@@ -2,8 +2,12 @@ html {
   font-family: Poppins, sans-serif;
 }
 
-header {
+header, footer {
   background-color: blue;
+}
+
+article {
+  background-color: white;
 }
 
 a {
@@ -17,4 +21,16 @@ ul li a:hover {
 
 body {
   background-color: yellow;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pad-l {
+    padding-left: 1em;
+  }
+
+  .pad-r {
+    padding-right: 1em;
+  }
+
 }
