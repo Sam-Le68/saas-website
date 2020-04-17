@@ -23,6 +23,10 @@ body {
   background-color: yellow;
 }
 
+footer a:hover {
+  color: orange;
+}
+
 @media only screen and (min-width: 38em) {
 
   .pad-l {
