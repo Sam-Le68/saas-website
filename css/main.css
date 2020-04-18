@@ -27,6 +27,11 @@ footer a:hover {
   color: orange;
 }
 
+nav ul li {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .pad-l {
@@ -35,6 +40,10 @@ footer a:hover {
 
   .pad-r {
     padding-right: 1em;
+  }
+
+  .quarter-img {
+    object-fit: cover;
   }
 
 }
