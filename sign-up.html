@@ -13,15 +13,25 @@
 <body>
 
   <header class="grid grid-middle push">
-    <img class="unit sx-1 s-1 m-1-4 l-1-4 i-64" class="img-flex" src="images/logo.svg" alt="">
-    <nav class="unit sx-1 s-1 m-3-4 l-3-4">
-      <ul class="text-left push-0 list-group-inline">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="tour.html">Features</a></li>
+    <div class="island-1-4 unit sx-1 s-1 m-1-4 l-1-4">
+      <img class="text-left i-64" class="img-flex" src="images/logo.svg" alt="">
+    </div>
+    <nav class="desktop unit sx-1 s-1 m-3-4 l-3-4 desktop">
+      <ul class="wrapper text-right push-0 list-group-inline">
+        <li><a class="" href="home.html">Home</a></li>
+        <li><a class="" href="tour.html">Features</a></li>
         <li><a class="current" href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
+    <nav class="desktop unit sx-1 s-1 m-3-4 l-3-4 mobile">
+      <ul class="wrapper text-center push-0 list-group">
+        <li class="pad-t push-1-2"><a class=" current" href="home.html">Home</a></li>
+        <li class="push-1-2"><a class="" href="tour.html">Features</a></li>
+        <li class="push-1-2"><a class="" href="sign-up.html">Sign Up</a></li>
+      </ul>
+    </nav>
   </header>
+
 
   <article class="gutter-1-2 text-center wrapper push wrapper">
     <h1>Join us now</h1>
@@ -50,8 +60,8 @@
 
   <footer class="grid pad-t">
     <div class="push-1-2 wrapper unit sx-1 s-1 m-1-2 l-1-2">
-      <h2 class="push-0">About</h2>
-      <div class="grid">
+      <h2 class="milli push-0">About</h2>
+      <div class="micro grid">
         <div class="unit sx-1-2 s-1-2 m-1-2 l-1-2">
           <a href="#">About the company</a><br>
           <a href="#">About the software</a>
@@ -63,9 +73,9 @@
       </div>
     </div>
     <div class="wrapper unit sx-1 s-1 m-1-2 l-1-2">
-      <h2 class="push-0">Social media</h2>
+      <h2 class="milli push-1-4">Social media</h2>
       <div class="">
-        <ul class="list-group-inline">
+        <ul class="push-0 list-group-inline">
           <li><a href="#"><img class="img-flex i-32 social" src="images/icon-facebook.svg" alt=""></a></li>
           <li><a href="#"><img class="img-flex i-32 social" src="images/icon-insta.svg" alt=""></a></li>
           <li><a href="#"><img class="img-flex i-32 social" src="images/icon-twitter.svg" alt=""></a></li>
@@ -75,7 +85,7 @@
     <div class="text-center wrapper unit xs-1 s-1 m-1 l-1">
       <img class="i-64" src="images/logo.svg" alt="">
     </div>
-    <div class="wrapper unit xs-1 s-1 m-1 l-1">
+    <div class="micro wrapper unit xs-1 s-1 m-1 l-1">
       <p>Language: <a href="#">English</a></p>
     </div>
   </footer>

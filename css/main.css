@@ -3,7 +3,7 @@ html {
 }
 
 header, footer {
-  background-color: blue;
+  background-color: #434996;
 }
 
 article {
@@ -20,11 +20,29 @@ nav li a:hover {
 }
 
 body {
-  background-color: yellow;
+  background-color: white;
+}
+
+.border-pup {
+  border: 4px solid #434996;
+}
+
+.btn {
+  background-color: #434996;
+  border-color: #434996;
+}
+
+.btn:hover {
+  background-color: #A7A8B7;
+  border-color: #A7A8B7;
 }
 
 footer a:hover {
   color: orange;
+}
+
+footer {
+  color: white;
 }
 
 nav ul li {
@@ -37,6 +55,13 @@ form {
   margin: 0 auto;
 }
 
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -50,6 +75,14 @@ form {
 
   .quarter-img {
     object-fit: cover;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
   }
 
 }
