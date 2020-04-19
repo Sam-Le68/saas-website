@@ -16,11 +16,17 @@ a {
 }
 
 nav li a:hover {
-  border-bottom: 3px solid white;
+  font-weight: bold;
+  color: orange;
 }
 
 body {
   background-color: white;
+}
+
+.current {
+  font-weight: bold;
+  border-bottom: 3px solid white;
 }
 
 .border-pup {
