@@ -37,6 +37,44 @@ form {
   margin: 0 auto;
 }
 
+.mobile {
+  display: block;
+}
+
+.nav-drop {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-drop {
+  display: block;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+header {
+  position: relative;
+}
+
+.mobile {
+  position: absolute;
+  top: auto;
+  right: .5em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .pad-l {
@@ -49,6 +87,14 @@ form {
 
   .quarter-img {
     object-fit: cover;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
   }
 
 }
