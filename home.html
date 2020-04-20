@@ -12,18 +12,23 @@
 </head>
 <body>
 
-  <header class="grid grid-middle push">
+  <ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
+  <header role="banner" class="grid grid-middle push">
     <div class="text-center island-1-4 unit sx-1 s-1 m-1-4 l-1-4">
       <img class="i-64" class="img-flex" src="images/logo.svg" alt="">
     </div>
-    <nav class="desktop unit sx-1 s-1 m-3-4 l-3-4 desktop">
+    <nav id="nav" role="navigation" class="desktop unit sx-1 s-1 m-3-4 l-3-4 desktop">
       <ul class="wrapper text-right push-0 list-group-inline">
         <li><a class="current" href="home.html">Home</a></li>
         <li><a class="" href="tour.html">Features</a></li>
         <li><a class="" href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
-    <nav class="desktop unit sx-1 s-1 m-3-4 l-3-4 mobile">
+    <nav id="nav" role="navigation" class="desktop unit sx-1 s-1 m-3-4 l-3-4 mobile">
       <ul class="wrapper text-center push-0 list-group">
         <li class="pad-t push-1-2"><a class=" current" href="home.html">Home</a></li>
         <li class="push-1-2"><a class="" href="tour.html">Features</a></li>
@@ -32,7 +37,7 @@
     </nav>
   </header>
 
-  <article class="desktop gutter-1-2 grid-stretch push wrapper banner grid grid-middle">
+  <article tabindex="0" class="desktop gutter-1-2 grid-stretch push wrapper banner grid grid-middle">
     <div class="border-pup island unit-content-distribute text-center unit xs-1 s-1 m-2-5 l-2-5">
       <p class="exa push-1-2">DISTANCE CAN'T SEPARATE OUR FAMILY</p>
       <a class="content-shrink btn" href="#">Download Call Up</a>
@@ -41,7 +46,7 @@
       <img class="unit-content-distribute img-flex quarter-img" src="images/1.jpg" alt="">
     </div>
   </article>
-  <article class="mobile grid-stretch push wrapper banner grid grid-middle">
+  <article tabindex="0" class="mobile grid-stretch push wrapper banner grid grid-middle">
     <div class="embed embed-2by3 unit-content-distribute unit xs-1 s-1 m-3-5 l-3-5">
       <img class="embed-item content-fill" src="images/1.jpg" alt="">
     </div>
@@ -51,7 +56,7 @@
     </div>
   </article>
 
-  <article class="desktop max-length gutter-1-2 pad-t pad-b text-center grid grid-middle push">
+  <article tabindex="0" class="desktop max-length gutter-1-2 pad-t pad-b text-center grid grid-middle push">
     <div class="island-1-2 unit xs-1 s-1 m-1-3 l-2-5">
       <img class="img-flex quarter-img content-fill" src="images/icon-illustration.png" alt="">
     </div>
@@ -61,7 +66,7 @@
       <a class="btn" href="#">See our offers</a>
     </div>
   </article>
-  <article class="mobile max-length gutter-1-2 pad-t pad-b text-center grid grid-middle push">
+  <article tabindex="0" class="mobile max-length gutter-1-2 pad-t pad-b text-center grid grid-middle push">
     <div class="unit xs-1 s-1 m-2-3 l-3-5">
       <p class="exa push-0">SHARE MOMENTS,</p><br>
       <p class="exa push-1-2">GET IN TOUCH</p>
@@ -75,9 +80,9 @@
   </article>
 
 
-  <article class="desktop gutter-1-2 grid-stretch grid grid-middle push wrapper">
+  <main id="main" class="desktop gutter-1-2 grid-stretch grid grid-middle push wrapper">
     <div class="pad-r sx-1 s-1 m-1-2 l-1-2 unit">
-      <div class="grid grid-stretch">
+      <div tabindex="0" class="grid grid-stretch">
         <div class="border-pup unit-content-distribute island unit xs-1 s-1 m-3-5 l-3-5">
           <p class="content-fill push">You can make family video call for free.</p>
           <a class="content-shrink btn" href="#">Try it now</a>
@@ -88,7 +93,7 @@
       </div>
     </div>
     <div class="pad-l sx-1 s-1 m-1-2 l-1-2 unit">
-      <div class="grid grid-stretch">
+      <div tabindex="0" class="grid grid-stretch">
         <div class="border-pup unit-content-distribute island unit xs-1 s-1 m-3-5 l-3-5">
           <p class="content-fill push">With only $7.99 per month, you can share your screen. Grandma loves to see family photos, doesn’t she?</p>
           <a class="content-shrink btn" href="#">Buy it now</a>
@@ -98,10 +103,10 @@
         </div>
       </div>
     </div>
-  </article>
-  <article class="mobile gutter-1-2 grid-stretch grid grid-middle push wrapper">
+  </main>
+  <main id="main" class="mobile gutter-1-2 grid-stretch grid grid-middle push wrapper">
     <div class="pad-r sx-1 s-1 m-1-2 l-1-2 unit push">
-      <div class="text-center border-pup grid grid-stretch">
+      <div tabindex="0" class="text-center border-pup grid grid-stretch">
         <div class="embed embed-4by3 unit unit-content-distribute xs-1 s-1 m-2-5 l-2-5">
           <img class="embed-item content-fill" src="images/2.jpg" alt="">
         </div>
@@ -112,7 +117,7 @@
       </div>
     </div>
     <div class="pad-l sx-1 s-1 m-1-2 l-1-2 unit">
-      <div class="text-center border-pup grid grid-stretch">
+      <div tabindex="0" class="text-center border-pup grid grid-stretch">
         <div class="unit xs-1 s-1 m-2-5 l-2-5 embed embed-4by3 unit-content-distribute">
           <img class="embed-item" src="images/3.jpg" alt="">
         </div>
@@ -122,9 +127,9 @@
         </div>
       </div>
     </div>
-  </article>
+  </main>
 
-  <footer class="grid pad-t">
+  <footer tabindex="0" role="contentinfo" class="grid pad-t">
     <div class="gutter-1-2 push-1-2 wrapper unit sx-1 s-1 m-1-2 l-1-2">
       <h2 class="milli push-0">About</h2>
       <div class="micro grid">
