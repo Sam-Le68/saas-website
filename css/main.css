@@ -15,9 +15,10 @@ a {
   color: white;
 }
 
-nav li a:hover {
+nav li a:hover, nav li a:focus {
   font-weight: bold;
   color: orange;
+  outline: 2px solid white;
 }
 
 body {
@@ -38,13 +39,14 @@ body {
   border-color: #434996;
 }
 
-.btn:hover {
+.btn:hover, btn:focus {
   background-color: #a7a8b7;
   border-color: #a7a8b7;
 }
 
-footer a:hover {
+footer a:hover, footer a:focus {
   color: orange;
+  outline: 2px solid white;
 }
 
 footer {
@@ -73,8 +75,9 @@ form {
   color: #434996;
 }
 
-.already a:hover {
+.already a:hover, .already a:focus {
   color: orange;
+  outline: 2px solid white;
 }
 
 img {
