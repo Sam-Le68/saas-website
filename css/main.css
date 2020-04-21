@@ -44,6 +44,10 @@ body {
   border-color: #a7a8b7;
 }
 
+nav:hover, nav:focus {
+  outline: 3px solid white;
+}
+
 footer a:hover, footer a:focus {
   color: orange;
   outline: 2px solid white;
