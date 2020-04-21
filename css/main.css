@@ -81,6 +81,19 @@ img {
   max-height: 30em;
 }
 
+.sign-up-banner {
+  position: relative;
+}
+
+.about-content {
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
 @media only screen and (min-width: 38em) {
 
   .pad-l {
