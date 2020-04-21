@@ -81,7 +81,7 @@ form {
 
 .already a:hover, .already a:focus {
   color: orange;
-  outline: 2px solid white;
+  outline: 3px solid black;
 }
 
 img {
