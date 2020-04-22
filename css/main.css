@@ -18,7 +18,6 @@ a {
 nav li a:hover, nav li a:focus {
   font-weight: bold;
   color: orange;
-  outline: 2px solid white;
 }
 
 body {
@@ -44,13 +43,12 @@ body {
   border-color: #a7a8b7;
 }
 
-nav:hover, nav:focus {
+nav:focus {
   outline: 3px solid white;
 }
 
 footer a:hover, footer a:focus {
   color: orange;
-  outline: 2px solid white;
 }
 
 footer {
@@ -79,9 +77,8 @@ form {
   color: #434996;
 }
 
-.already a:hover, .already a:focus {
+.already a:focus, .already a:hover {
   color: orange;
-  outline: 3px solid black;
 }
 
 .ubuntu, h1, h2, h3 {
