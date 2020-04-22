@@ -33,6 +33,10 @@ body {
   border: 4px solid #434996;
 }
 
+h1, h2, h3, caption, th {
+  color: #434996;
+}
+
 .btn {
   background-color: #434996;
   border-color: #434996;
@@ -51,7 +55,7 @@ footer a:hover, footer a:focus {
   color: orange;
 }
 
-footer {
+footer, footer h1, footer h2 {
   color: white;
 }
 
@@ -81,7 +85,7 @@ form {
   color: orange;
 }
 
-.ubuntu, h1, h2, h3 {
+.ubuntu, h1, h2, h3, caption {
   font-family: Ubuntu, sans-serif;
 }
 
