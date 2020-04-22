@@ -84,6 +84,10 @@ form {
   outline: 3px solid black;
 }
 
+.ubuntu, h1, h2, h3 {
+  font-family: Ubuntu, sans-serif;
+}
+
 img {
   max-height: 30em;
 }
